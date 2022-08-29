@@ -70,6 +70,10 @@ a:visited {
     text-align: center;
   }
 
+  .info-text {
+    margin-left: 0px;
+  }
+
   .info p {
     font-size: 14px;
   }
