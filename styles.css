@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f1f1f1;
+  color: #101010;
+
+  /* font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif; */
+
+  font: normal 16px "Roboto", sans-serif;
+}
+
+.app {
+  max-width: 750px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: gray;
+}
+
+.avatar {
+  width: 225px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 025);
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.info p {
+  font-weight: bold;
+  color: #86898f;
+  font-style: italic;
+  margin: 0 0 5px 0;
+}
+
+.info strong {
+  color: red;
+}
+
+.info em {
+  color: purple;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+
+  .info p {
+    font-size: 14px;
+  }
+}
+
+.bg-yellow {
+  background-color: #fff9dc;
+}
+
+.bg-green {
+  background-color: #e5ffe7;
+}
+
+.bg-red {
+  background-color: #ffe5e5;
+}
+
+.card {
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.link-list {
+  padding: 0;
+  list-style: none;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Contact */
+
+/* .contact {
+} */
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+}
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: #86898f;
+  font-size: 14px;
+}
+
+.row .form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  outline: none;
+  padding: 15px 0 10px;
+  color: #000;
+  font-family: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn {
+  margin: 0 auto;
+  background-color: #111;
+  border: none;
+  color: #fff;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
